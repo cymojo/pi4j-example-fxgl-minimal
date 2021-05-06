@@ -1,4 +1,4 @@
-package com.pi4j.example.piMapping;
+package com.pi4j.minimal.util.piMapping;
 
 
 import com.almasb.fxgl.app.GameApplication;

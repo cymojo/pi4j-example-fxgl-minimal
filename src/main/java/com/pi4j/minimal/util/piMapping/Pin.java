@@ -1,4 +1,4 @@
-package com.pi4j.example.piMapping;
+package com.pi4j.minimal.util.piMapping;
 
 public enum Pin {
     PIN_JOYSTICK_UP(12),

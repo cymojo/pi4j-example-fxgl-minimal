@@ -1,23 +1,20 @@
-package com.pi4j.example;
+package com.pi4j.minimal;
 
 /*-
  * #%L
  * **********************************************************************
  * ORGANIZATION  :  FHNW
- * PROJECT       :  Pi4J :: EXAMPLE  :: Minimal
+ * PROJECT       :  Pi4J :: FXGL  :: Minimal
  * FILENAME      :  FxglMinimal.java
  *
  * This file is part of the Pi4J project. More information about
  * this project can be found here:  https://pi4j.com/
  * **********************************************************************
  */
-import com.pi4j.example.piMapping.PicadeGameApplication;
 
-import com.almasb.fxgl.app.GameApplication;
 import com.almasb.fxgl.app.GameSettings;
 import com.almasb.fxgl.entity.EntityFactory;
-
-import static com.almasb.fxgl.dsl.FXGL.*;
+import com.pi4j.minimal.util.piMapping.PicadeGameApplication;
 
 public class FxglMinimal extends PicadeGameApplication {
 
@@ -31,6 +28,7 @@ public class FxglMinimal extends PicadeGameApplication {
         // Launch the FXGL game application
         launch(args);
     }
+
 
     /**
      * General game settings. For now only the title is set, but a longer list of options is available.
@@ -50,6 +48,6 @@ public class FxglMinimal extends PicadeGameApplication {
      */
     @Override
     protected void initGame() {
-        pi4JFactory.getConsole().println("Init game done");
+        getConsole().println("Init game done");
     }
 }
