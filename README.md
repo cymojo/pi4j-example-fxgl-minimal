@@ -1,26 +1,19 @@
 
- Pi4J V2 :: Java I/O Library for Raspberry Pi :: Example game application with FXGL
+ Pi4J FXGL Minimal :: Base configuration for applications with FXGL and PI4J
 ===================================================================================
 
 [![Build Status](https://github.com/pi4j/pi4j-example-fxgl/workflows/Maven/badge.svg)](https://github.com/Pi4J/pi4j-example-fxgl/actions/workflows/maven.yml)
 
-This project contains an example application which uses the Pi4J (V2) library and uses 
-an Arcade button and joystick kit to control a JavaFX FXGL game. Full description is available on 
+This project contains the base structure for developing games working on a raspberry pi
+
 [the Pi4J website](https://v2.pi4j.com/getting-started/game-development-with-fxgl/)
 
 ## PROJECT OVERVIEW
 
-The goal of the example project is to show how to set up a Pi4J Maven for the Raspberry Pi with JavaFX and some
-physical buttons.
+This setup should help you start an application from scratch
 
-The full description is available on 
+An example project is found here:
 [Game development with FXGL](https://v2.pi4j.com/getting-started/game-development-with-fxgl/).
-
-## COMPONENTS
-
-![Arcade kit components](assets/arcade_parts_kit.jpg)
-![Picade Hat](assets/picade_hat.jpg)
-![Picade Hat pin numbers](assets/picade_hat_pin_numbers.png)
 
 ## RUNTIME DEPENDENCIES
 
